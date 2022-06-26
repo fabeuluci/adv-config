@@ -1,0 +1,25 @@
+{
+  "name": "adv-config",
+  "version": "1.0.1",
+  "description": "Config loader",
+  "license": "MIT",
+  "author": {
+    "name": "Fabeuluci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabeuluci/adv-config.git"
+  },
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "scripts": {
+    "compile": "rm -rf out && tsc",
+    "watch": "rm -rf out && tsc -w"
+  },
+  "dependencies": {
+    "adv-log": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42"
+  }
+}
